@@ -71,7 +71,7 @@ h6          {
             background-color: #006a50;
 
 }
-.primary-button :hover {
+.primary-button:hover{
     color: #006A50;
     font-size: 12px;
     font-family: "Fira Sans", serif;
@@ -82,7 +82,6 @@ h6          {
     border: 2px solid #006A50;
     padding: 15px 30px;
 }
-/* 
 .main-title{
             color: #0E0E0E;
             font-family:"Fira Sans", serif ;
@@ -105,7 +104,7 @@ h6          {
 }
 .child-image{
             width: 50px;
-            height: 50px;
+            height: 70px;
 }
 .card-title-area{
             font-family:"Fira Sans", serif ;
@@ -116,12 +115,12 @@ h6          {
 }
 
 .description-area, time{
-            color: rgba(14, 14, 14, 0.5) ;
+            color: rgba(14, 14, 14, 0.8) ;
             font-family:"Fira Sans", serif ;
-            font-size: 8px;
+            font-size: 10px;
             font-style: normal;
             font-weight: 400;
-            line-height: 12px;
+            line-height: 15px;
 }
 .vision-parent{
             margin-top: 15px;
@@ -139,11 +138,11 @@ h6          {
             border: none;
             color: white;
             font-family:"Fira Sans", serif ;
-            font-size: 8px;
+            font-size: 12px;
             font-weight: 600;
             font-style: normal;
             border-radius: 8px;
-            padding: 5px 10px;
+            padding: 10px 15px;
             background-color: #5490F5;
 }
 .vision-child-2{
@@ -155,11 +154,11 @@ h6          {
             border: none;
             color: white;
             font-family:"Fira Sans", serif ;
-            font-size: 8px;
+            font-size: 12px;
             font-weight: 600;
             font-style: normal;
             border-radius: 8px;
-            padding: 5px 10px;
+            padding: 10px 15px;
             background-color: #09A15C;
 }
 .vision-child-3{
@@ -171,11 +170,11 @@ h6          {
              border: none;
              color: white;
              font-family:"Fira Sans", serif ;
-             font-size: 8px;
+             font-size: 10px;
              font-weight: 600;
              font-style: normal;
              border-radius: 8px;
-             padding: 5px 10px;
+             padding: 10px 15px;
              background-color: #FFC239;
 }
 
@@ -184,15 +183,15 @@ h6          {
             background-color: white;
             background-image: url(../assets/quote-bg.png);
             background-repeat: no-repeat;
-            background-position: 10px 10px;
+            background-position: 10px 20px;
             background-size: 30px 30px;
             padding: 20px 10px;
             border-radius: 16px;  
 }
 .blockquote-text-area{
-            color: rgba(14, 14, 14, 0.5) ;
+            color: rgba(14, 14, 14, 0.6) ;
             font-family:"Fira Sans", serif ;
-            font-size: 8px;
+            font-size: 10px;
             font-style: normal;
             font-weight: 400;
             line-height: 0px;
@@ -200,25 +199,26 @@ h6          {
 }
 .quote-title{
             font-family: "Fira Sans", serif;
-            font-size: 12px;
+            font-size: 13px;
             font-weight: 600;
             font-style: normal;
 }
 .recent-blog-1{
+            background-color: white;
+            margin-top: 24px;
             display: flex;
             justify-content: space-around;
             align-items: center;
             gap: 30px ;
-            background-color: white;
             padding: 30px;
             border-radius: 20px;
-            margin-top: 24px;
+            
 }
 .recent-blog-2{
+            align-items: center;
             display: flex;
             flex-direction: row-reverse;
             justify-content: space-around;
-            align-items: center;
             gap: 30px ;
             background-color: white;
             padding: 30px;
@@ -226,8 +226,8 @@ h6          {
             margin-top: 24px;      
 }
 .recent-blog-image{
-            width: 300px;
-            height: 200px;
+            width: 350px;
+            height: 220px;
             border-radius: 20px;
 
 }
@@ -255,18 +255,17 @@ h6          {
 
 .donation-text{
                 color: rgba(14, 14, 14, 0.7);
-                font-size: 8px;
+                font-size: 10px;
                 font-family: "Fira Sans", serif;
                 font-weight: 400;
                 font-style: normal;
-                line-height: 12px;
+                line-height: 15px;
                 text-align: center;  
 }
 .donation-parent-area{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 10px;
     margin-top: 20px;
 }
 .donation-child{
@@ -274,7 +273,8 @@ h6          {
     background-color: white;
     padding: 30px;
 }
-.donation-child :hover{
+.donation-child:hover{
+    color: rgba(14, 14, 14, 0.8);
     border-radius: 16px;
     background-color: #C6E4D6;
   
@@ -285,12 +285,14 @@ form {
     flex-direction: column;
     align-items: center;   
 }
+
 input[type = number] {
-    width: 80%;
+    width: 70%;
     padding: 10px;
     border: none;
     text-align: center;
     border-radius: 2px;
+    font-size: 12px;
     
 }
 input[type = button] {
@@ -311,23 +313,23 @@ input[type = button] {
 }
 input[type=email]
 {
-    width: 70%;
+width: 70%;
 font-size: 15px;
 padding: 13px 30px;
 border: none;
 border-radius: 8px 0 0 8px;
-outline: none;
+outline: 0;
 }
 input::placeholder{
     text-align: left;
     color: rgba(14, 14, 14, 0.3);
 }
-.btn-subscribe{
+.subscribe-btn{
     color: white;
     font-size: 12px;
-    font-family: "Fira Sans", serif;
-    font-weight: 600;
-    font-style: normal;
+    font-family:"Fira Sans", serif;
+    font-weight:600;
+    font-style:normal;
     background-color: #006A50;
     border-radius: 0 8px 8px 0;
     padding: 15px 30px;
@@ -341,22 +343,10 @@ input::placeholder{
     background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: 60px;
-    
-} */
-/* .primary-button{
-    color: white;
-    font-size: 12px;
-    font-family: "Fira Sans", serif;
-    font-weight: 600;
-    font-style: normal;
-    background-color: #006A50;
-    border-radius: 8px;
-    border: 2px solid #006A50;
-    padding: 15px 30px;
-} */
+    margin-top: 60px; 
+}
 
-/* .footer-title {
+.footer-title {
     font-size:15px ;
     color: #0E0E0E;
     font-family: "Fira Sans", serif;
@@ -376,6 +366,8 @@ hr{
     justify-content: center;
     align-items: center;
     gap: 15px;
+}
+.social-icon{
     height: 15px;
     width: 15px;
-} */
+}
