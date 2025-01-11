@@ -332,6 +332,17 @@ input::placeholder{
     margin-top: 60px;
     
 }
+.primary-button{
+    color: white;
+    font-size: 12px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #006A50;
+    border-radius: 8px;
+    border: 2px solid #006A50;
+    padding: 15px 30px;
+}
 .primary-button :hover {
     color: #006A50;
     font-size: 12px;
