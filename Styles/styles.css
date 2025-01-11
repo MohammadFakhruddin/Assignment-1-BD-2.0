@@ -257,10 +257,15 @@ h6          {
     gap: 10px;
     margin-top: 20px;
 }
-.donation-child :hover{
+.donation-child{
     border-radius: 16px;
     background-color: white;
     padding: 30px;
+}
+.donation-child :hover{
+    border-radius: 16px;
+    background-color: #C6E4D6;
+  
 }
 form {
     margin-top: 15px;
@@ -269,11 +274,12 @@ form {
     align-items: center;   
 }
 input[type = number] {
-    width: 60%;
+    width: 80%;
     padding: 10px;
     border: none;
     text-align: center;
     border-radius: 2px;
+    
 }
 input[type = button] {
     margin-top: 15px;
@@ -286,8 +292,38 @@ input[type = button] {
 }
 .subscription{
     display: flex;
-    width: 55%;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
 }
+input[type=email]
+{
+    width: 70%;
+font-size: 15px;
+padding: 13px 30px;
+border: none;
+border-radius: 8px 0 0 8px;
+outline: none;
+}
+input::placeholder{
+    text-align: left;
+    color: rgba(14, 14, 14, 0.3);
+}
+.btn-subscribe{
+    color: white;
+    font-size: 12px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #006A50;
+    border-radius: 0 8px 8px 0;
+    padding: 15px 30px;
+    border: none;
+   
+}
+
+
 .footer-area {
     width: 100%;
     background-color: white;
