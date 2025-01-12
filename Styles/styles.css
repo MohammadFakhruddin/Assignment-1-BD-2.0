@@ -25,6 +25,18 @@ main{
             font-style: normal;
 
 }
+.navbar-btn:hover{
+            color: white;
+            background-color: #006a50;
+            border: 2px solid #006a50;
+            border-radius: 8px;
+            padding: 5px 20px;
+            font-family: "Fira Sans", serif ;
+            font-size: 12px;
+            font-weight: 600;
+            font-style: normal;
+
+}
 h3          {
             font-family: "Fira Sans", serif;
             color: #0E0E0E;
@@ -103,6 +115,12 @@ h6          {
             background-color: white;
 
 }
+.child-section:hover{
+            border-radius: 16px;
+            padding: 30px;
+            background-color: #c6e4d6;
+
+}
 .child-image{
             width: 50px;
             height: 50px;
@@ -118,10 +136,10 @@ h6          {
 .description-area, time{
             color: rgba(14, 14, 14, 0.8) ;
             font-family:"Fira Sans", serif ;
-            font-size: 12px;
+            font-size: 13px;
             font-style: normal;
             font-weight: 400;
-            line-height: 15px;
+            line-height: 20px;
 }
 .vision-parent{
             margin-top: 15px;
@@ -184,8 +202,8 @@ h6          {
             background-color: white;
             background-image: url(../assets/quote-bg.png);
             background-repeat: no-repeat;
-            background-position: 10px 20px;
-            background-size: 30px 30px;
+            background-position: 10px 14.5px;
+            background-size: 50px 50px;
             padding: 20px 10px;
             border-radius: 16px;  
 }
@@ -256,18 +274,19 @@ h6          {
 
 .donation-text{
                 color: rgba(14, 14, 14, 0.7);
-                font-size: 12px;
+                font-size: 13px;
                 font-family: "Fira Sans", serif;
                 font-weight: 400;
                 font-style: normal;
-                line-height: 15px;
+                line-height: 20px;
                 text-align: center;  
 }
 .donation-parent-area{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-top: 20px;
+    gap: 30px;
 }
 .donation-child{
     border-radius: 16px;
@@ -288,14 +307,20 @@ form {
 }
 
 input[type = number] {
-    width: 70%;
-    padding: 10px;
+    width: 48%;
+    padding: 15px;
     border: none;
     text-align: center;
     border-radius: 2px;
     font-size: 12px;
     
+    
 }
+
+.donation-form input::placeholder {
+    text-align: center;
+}
+
 input[type = button] {
     margin-top: 15px;
 }
@@ -305,12 +330,13 @@ input[type = button] {
     margin-top: 60px;
     border-radius: 24px;
 }
-.subscription{
+.subscription {
     display: flex;
     width: 70%;
     align-items: center;
     justify-content: center;
     gap: 0;
+    
 }
 input[type=email]
 {
@@ -334,7 +360,19 @@ input::placeholder{
     background-color: #006A50;
     border-radius: 0 8px 8px 0;
     padding: 15px 30px;
-    border: none;
+    border: 0.5px solid #006A50;
+   
+}
+.subscribe-btn:hover{
+    color: #006A50;
+    font-size: 12px;
+    font-family:"Fira Sans", serif;
+    font-weight:600;
+    font-style:normal;
+    background-color: #ffffff;
+    border-radius: 6px 8px 8px 6px;
+    padding: 15px 30px;
+    border: 0.5px solid gray;
    
 }
 
@@ -348,7 +386,7 @@ input::placeholder{
 }
 
 .footer-title {
-    font-size:15px ;
+    font-size:18px ;
     color: #0E0E0E;
     font-family: "Fira Sans", serif;
     font-weight: 700;
